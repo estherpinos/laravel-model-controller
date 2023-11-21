@@ -9,7 +9,7 @@
     {{-- styles --}}
     @vite('resources/js/app.js')
 </head>
-<body>
+<body class="body">
     <div class="container">
         @yield('content')
     </div>

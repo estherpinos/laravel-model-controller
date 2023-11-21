@@ -13,7 +13,7 @@ class PageController extends Controller
 
         $movies = Movie::all();
         //dd($movies);
-
+        $img = config('img');
         return view("home", compact("movies"));
     }
 }
