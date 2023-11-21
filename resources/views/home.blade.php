@@ -23,8 +23,8 @@ $img = config('img');
 
 
                     <div class="card-body">
-                    <h5 class="card-title">{{$movie->title}}</h5>
-                    <h6 class="card-title">Original title: {{$movie->original_title}}</h6>
+                    <h4 class="card-title mb-3">{{$movie->title}}</h4>
+                    <p class="card-title">Original title: {{$movie->original_title}}</p>
                     <p class="card-text">Nationality: {{$movie->nationality}}</p>
                     <p class="card-text">Date: {{$movie->date}}</p>
                     <p class="card-text">Vote: {{$movie->vote}}</p>
